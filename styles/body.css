@@ -1,0 +1,106 @@
+.container {
+  font-family: sans-serif;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90px;
+  width: 22em;
+}
+#email {
+  width: 70%;
+  height: 1.8em;
+  margin: 0 auto;
+}
+
+#submit {
+  width: 40%;
+  height: 2em;
+  margin: auto;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgba(255, 174, 0, 0.768);
+}
+
+/* services section */
+
+.services {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.desc-container {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.icons {
+  color: rgba(255, 145, 0, 0.768);
+  width: 2em;
+  margin: auto 4em auto 0;
+}
+
+/* price article */
+
+.prices {
+  display: flex;
+  flex-flow: column wrap;
+}
+.price_container {
+  border: 1px solid black;
+  margin-bottom: 0.4em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price_tag {
+  background-color: rgba(190, 184, 184, 0.615);
+  height: 1.5em;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+#button {
+  background: yellow;
+  border: none;
+  padding: 1em 1.8em;
+  text-transform: uppercase;
+}
+
+.prices p {
+  padding: 0.5em;
+}
+
+/* media query for the prices article */
+@media all and (min-width: 800px) {
+  .prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .price_container {
+    margin: auto 0.5em;
+    width: 30%;
+  }
+}
+
+/* youtube embedded style */
+.embed {
+  margin: 5em 0;
+}
